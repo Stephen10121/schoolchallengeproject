@@ -28,5 +28,8 @@
 		"tw-animate-css": "^1.3.7",
 		"typescript": "^5.0.0",
 		"vite": "^7.0.4"
+	},
+	"dependencies": {
+		"svelte-confetti": "^2.3.2"
 	}
 }

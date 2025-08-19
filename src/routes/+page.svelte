@@ -6,6 +6,7 @@
     import Progress from "@/Progress.svelte";
     import { onMount } from "svelte";
     import { challengeData } from "@/data";
+    import Confetti from "@/Confetti.svelte";
 
     const categoryColors = {
         awareness: "bg-chart-1/10 text-chart-1 border-chart-1/20",
@@ -29,6 +30,15 @@
 
     let progressPercentage = $derived((completedDays.size / 30) * 100);
     let todayQuote = $derived(motivationalQuotes[currentDay % motivationalQuotes.length]);
+    let showConfetti = $state(false);
+
+    $effect(() => {
+        if (progressPercentage === 100) {
+            showConfetti = true;
+        } else {
+            showConfetti = false;
+        }
+    });
 
     onMount(() => {
         const saved = localStorage.getItem("mental-health-progress");
@@ -55,6 +65,8 @@
 <svelte:head>
     <title>30 Day Mental Health Challenge | AskDani</title>
 </svelte:head>
+
+<Confetti bind:show={showConfetti} />
 
 <div class="min-h-screen bg-background">
     <header class="bg-card border-b border-border">
