@@ -46,7 +46,7 @@
 </script>
 
 <svelte:head>
-    <title>Day {data.dayNumber} | AskDani</title>
+    <title>Day {data.dayNumber} - {data.challenge.title} | AskDani</title>
 </svelte:head>
 
 
