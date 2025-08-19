@@ -1,10 +1,12 @@
 <script lang="ts">
-	import '../app.css';
+	import { injectSpeedInsights } from '@vercel/speed-insights/sveltekit';
+	import { injectAnalytics } from '@vercel/analytics/sveltekit';
 	import favicon from '$lib/assets/favicon.svg';
 	import { dev } from '$app/environment';
-	import { injectAnalytics } from '@vercel/analytics/sveltekit';
+	import '../app.css';
 
 	injectAnalytics({ mode: dev ? 'development' : 'production' });
+	injectSpeedInsights();
 	
 	let { children } = $props();
 </script>
