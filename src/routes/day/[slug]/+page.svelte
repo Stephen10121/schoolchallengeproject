@@ -61,7 +61,7 @@
                     Back to Overview
                 </Button>
 
-                <div class="flex items-center gap-2">
+                <div class="items-center gap-2 hidden sm:flex">
                     <Button variant="outline" size="sm" href="/day/{dayNumber - 1}" disabled={dayNumber <= 1}>
                         <ArrowLeft class="h-4 w-4" />
                     </Button>
@@ -85,7 +85,21 @@
     <div class="max-w-4xl mx-auto px-4 py-8">
         <Card.Root class={`mb-8 ${isCompleted ? "bg-accent/5 border-accent" : ""}`}>
             <Card.Header>
-                <div class="flex items-start justify-between">
+                <Button
+                    onclick={() => toggleDay(challenge.day)}
+                    variant={isCompleted ? "secondary" : "default"}
+                    size="lg"
+                    class="flex sm:hidden items-center gap-2 mt-1"
+                >
+                    {#if isCompleted}
+                        <CircleCheck class="h-5 w-5" />
+                        Completed
+                    {:else}
+                        <Circle class="h-5 w-5" />
+                        Mark Complete
+                    {/if}
+                </Button>
+                <div class="mt-2 sm:mt-0 flex items-start justify-between">
                     <div class="flex items-center gap-3">
                         <div class="flex items-center justify-center w-12 h-12 rounded-full bg-primary/10 text-primary font-bold text-lg">
                             {challenge.day}
@@ -102,7 +116,7 @@
                         onclick={() => toggleDay(challenge.day)}
                         variant={isCompleted ? "secondary" : "default"}
                         size="lg"
-                        class="flex items-center gap-2"
+                        class="hidden sm:flex items-center gap-2"
                     >
                         {#if isCompleted}
                             <CircleCheck class="h-5 w-5" />
@@ -149,7 +163,7 @@
                     <ul class="space-y-2">
                         {#each challenge.resources as resource, index (`resources${index}`)}
                             <li class="flex items-start gap-2">
-                                <a class="text-muted-foreground underline" href={resource} target="_blank">{resource}</a>
+                                <a class="resource text-muted-foreground underline" href={resource} target="_blank">{resource}</a>
                             </li>
                         {/each}
                     </ul>
@@ -187,3 +201,14 @@
         </div>
     </div>
 </div>
+
+<style>
+    .resource {
+        width: 100%;
+        white-space: pre-wrap; /* CSS3 */    
+        white-space: -moz-pre-wrap; /* Mozilla, since 1999 */
+        white-space: -pre-wrap; /* Opera 4-6 */    
+        white-space: -o-pre-wrap; /* Opera 7 */    
+        word-wrap: break-word; /* Internet Explorer 5.5+ */
+    }
+</style>
