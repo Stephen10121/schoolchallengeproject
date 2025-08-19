@@ -437,7 +437,7 @@ export const challengeData: ChallengeDayType[] = [
   link: "/day/25",
   "title": "Self-Care Day",
   "description": "Have a self care day for yourself",
-  "detailedDescription": "Dedicate today to nurturing yourself. Whether it’s rest, pampering, or reflection—do what makes you feel whole.",
+  "detailedDescription": "Dedicate today to nurturing yourself. Whether it's rest, pampering, or reflection. Do what makes you feel whole.",
   "tips": [
     "Take a long bath or nap.",
     "Say no to extra obligations.",
