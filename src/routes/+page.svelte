@@ -131,6 +131,8 @@
             <a href="tel:360-992-2614" class="text-primary hover:text-primary/80 underline">
             Student Services: 360-992-2614
             </a>
+            <a href="https://github.com/Stephen10121/schoolchallengeproject" class="text-primary hover:text-primary/80 underline">
+            Github</a>
         </div>
         </div>
     </footer>
