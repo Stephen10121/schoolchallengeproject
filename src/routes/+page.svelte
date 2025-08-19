@@ -73,7 +73,7 @@
     <div class="max-w-6xl mx-auto px-4 py-6">
         <div class="flex items-center gap-3 mb-4">
         <Heart class="h-8 w-8 text-primary" />
-        <h1 class="text-3xl font-bold text-foreground">30-Day Mental Health Challenge by: AskDani</h1>
+        <h1 class="text-3xl font-bold text-foreground">30-Day Mental Health Challenge by: Austin, Dani, Kathryn, Stephen</h1>
         </div>
         <p class="text-muted-foreground text-lg leading-relaxed max-w-2xl">
         Transform your wellbeing with daily practices designed to support your mental health journey. Each day
