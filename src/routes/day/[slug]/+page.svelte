@@ -3,7 +3,6 @@
     import { Button } from "$lib/components/ui/button/index.js";
     import { Badge } from "$lib/components/ui/badge/index.js";
     import * as Card from "$lib/components/ui/card/index.js";
-    import { challengeData } from "@/data";
     import { onMount } from "svelte";
 
     const categoryColors = {
@@ -27,7 +26,6 @@
 
     let dayNumber = $derived(Number.parseInt(data.dayNumber as string));
     let completedDays: Set<number> = $state(new Set());
-    let challenge = $derived(challengeData.find((c) => c.day === dayNumber) || challengeData[0]);
     let isCompleted = $derived(completedDays.has(dayNumber));
 
     onMount(() => {
@@ -75,8 +73,8 @@
             <div class="flex items-center gap-3">
                 <Heart class="h-8 w-8 text-primary" />
                 <div>
-                    <h1 class="text-3xl font-bold text-foreground">{challenge.title}</h1>
-                    <p class="text-muted-foreground">Day {challenge.day} Challenge</p>
+                    <h1 class="text-3xl font-bold text-foreground">{data.challenge.title}</h1>
+                    <p class="text-muted-foreground">Day {data.challenge.day} Challenge</p>
                 </div>
             </div>
         </div>
@@ -86,7 +84,7 @@
         <Card.Root class={`mb-8 ${isCompleted ? "bg-accent/5 border-accent" : ""}`}>
             <Card.Header>
                 <Button
-                    onclick={() => toggleDay(challenge.day)}
+                    onclick={() => toggleDay(data.challenge.day)}
                     variant={isCompleted ? "secondary" : "default"}
                     size="lg"
                     class="flex sm:hidden items-center gap-2 mt-1"
@@ -102,18 +100,18 @@
                 <div class="mt-2 sm:mt-0 flex items-start justify-between">
                     <div class="flex items-center gap-3">
                         <div class="flex items-center justify-center w-12 h-12 rounded-full bg-primary/10 text-primary font-bold text-lg">
-                            {challenge.day}
+                            {data.challenge.day}
                         </div>
                         <div>
-                            <Card.Title class="text-2xl mb-2">{challenge.title}</Card.Title>
-                            <Badge variant="outline" class={`w-fit ${categoryColors[challenge.category as keyof typeof categoryColors]}`}>
-                                {challenge.category.replace("-", " ")}
+                            <Card.Title class="text-2xl mb-2">{data.challenge.title}</Card.Title>
+                            <Badge variant="outline" class={`w-fit ${categoryColors[data.challenge.category as keyof typeof categoryColors]}`}>
+                                {data.challenge.category.replace("-", " ")}
                             </Badge>
                         </div>
                     </div>
 
                     <Button
-                        onclick={() => toggleDay(challenge.day)}
+                        onclick={() => toggleDay(data.challenge.day)}
                         variant={isCompleted ? "secondary" : "default"}
                         size="lg"
                         class="hidden sm:flex items-center gap-2"
@@ -132,12 +130,12 @@
             <Card.Content class="space-y-6">
                 <div>
                     <h3 class="font-semibold mb-2">Summary</h3>
-                    <p class="text-lg text-muted-foreground">{challenge.description}</p>
+                    <p class="text-lg text-muted-foreground">{data.challenge.description}</p>
                 </div>
 
                 <div>
                     <h3 class="font-semibold mb-2">Description</h3>
-                    <p class="text-muted-foreground leading-relaxed">{challenge.detailedDescription}</p>
+                    <p class="text-muted-foreground leading-relaxed">{data.challenge.detailedDescription}</p>
                 </div>
 
                 <div>
@@ -146,7 +144,7 @@
                         Tips for Success
                     </h3>
                     <ul class="space-y-2">
-                        {#each challenge.tips as tip, index (`tips${index}`)}
+                        {#each data.challenge.tips as tip, index (`tips${index}`)}
                             <li class="flex items-start gap-2">
                                 <div class="w-1.5 h-1.5 rounded-full bg-primary mt-2 flex-shrink-0"></div>
                                 <span class="text-muted-foreground">{tip}</span>
@@ -155,14 +153,14 @@
                     </ul>
                 </div>
 
-                {#if challenge.resources.length > 0}
+                {#if data.challenge.resources.length > 0}
                     <div>
                         <h3 class="font-semibold mb-3 flex items-center gap-2">
                             <Archive class="h-4 w-4" />
                             Resources
                         </h3>
                         <ul class="space-y-2">
-                            {#each challenge.resources as resource, index (`resources${index}`)}
+                            {#each data.challenge.resources as resource, index (`resources${index}`)}
                                 <li class="flex items-start gap-2">
                                     <a class="resource text-muted-foreground underline" href={resource} target="_blank">{resource}</a>
                                 </li>
@@ -171,10 +169,10 @@
                     </div>
                 {/if}
 
-                {#if challenge.fact}
+                {#if data.challenge.fact}
                     <div class="bg-muted/30 p-4 rounded-lg">
                         <h3 class="font-semibold mb-2">Did You Know?</h3>
-                        <p class="text-muted-foreground">{challenge.fact.text} <a class="underline" target="_blank" href={challenge.fact.source}>Source</a></p>
+                        <p class="text-muted-foreground">{data.challenge.fact.text} <a class="underline" target="_blank" href={data.challenge.fact.source}>Source</a></p>
                     </div>
                 {/if}
             </Card.Content>

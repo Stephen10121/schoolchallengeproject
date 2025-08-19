@@ -670,13 +670,15 @@ export const challengeData: ChallengeDayType[] = [
   link: "/day/1",
   "title": "Stress Inventory",
   "description": "List things that commonly stress you out.",
-  "detailedDescription": "Identify common stressors in your life—school, relationships, finances, etc. Awareness is the first step toward change.",
+  "detailedDescription": "Identify common stressors in your life, school, relationships, finances, etc. Awareness is the first step toward change.",
   "tips": [
     "Use categories: physical, emotional, social, academic.",
     "Rank stressors from mild to severe.",
     "Journal your thoughts for clarity."
   ],
-  "resources": []
+  "resources": [
+    "https://www.health.harvard.edu/healthbeat/writing-about-emotions-may-ease-stress-and-trauma"
+  ]
 },
 {
   "day": 2,
