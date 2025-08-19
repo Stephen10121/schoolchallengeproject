@@ -369,7 +369,7 @@ export const challengeData: ChallengeDayType[] = [
     "text": "Spending less time using phones and computers motivates you to spend more time physically exerting yourself, leading to improved health.",
     "source": "https://www.mayoclinichealthsystem.org/hometown-health/featured-topic/5-ways-slimming-screen-time-is-good-for-your-health"
   },
-  "detailedDescription": "Use only basic phone functions today—calls and texts. This helps reduce digital distractions and encourages more physical and social activity.",
+  "detailedDescription": "Use only basic phone functions today, calls and texts. This helps reduce digital distractions and encourages more physical and social activity.",
   "tips": [
     "Turn off mobile data and apps.",
     "Plan in-person meetups or outdoor time.",
