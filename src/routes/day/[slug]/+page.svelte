@@ -1,5 +1,5 @@
 <script lang="ts">
-    import { Heart, CircleCheck, Circle, ArrowLeft, ArrowRight, House, Lightbulb } from "@lucide/svelte";
+    import { Heart, CircleCheck, Circle, ArrowLeft, ArrowRight, House, Lightbulb, Archive } from "@lucide/svelte";
     import { Button } from "$lib/components/ui/button/index.js";
     import { Badge } from "$lib/components/ui/badge/index.js";
     import * as Card from "$lib/components/ui/card/index.js";
@@ -155,19 +155,21 @@
                     </ul>
                 </div>
 
-                <div>
-                    <h3 class="font-semibold mb-3 flex items-center gap-2">
-                        <Lightbulb class="h-4 w-4" />
-                        Resources
-                    </h3>
-                    <ul class="space-y-2">
-                        {#each challenge.resources as resource, index (`resources${index}`)}
-                            <li class="flex items-start gap-2">
-                                <a class="resource text-muted-foreground underline" href={resource} target="_blank">{resource}</a>
-                            </li>
-                        {/each}
-                    </ul>
-                </div>
+                {#if challenge.resources.length > 0}
+                    <div>
+                        <h3 class="font-semibold mb-3 flex items-center gap-2">
+                            <Archive class="h-4 w-4" />
+                            Resources
+                        </h3>
+                        <ul class="space-y-2">
+                            {#each challenge.resources as resource, index (`resources${index}`)}
+                                <li class="flex items-start gap-2">
+                                    <a class="resource text-muted-foreground underline" href={resource} target="_blank">{resource}</a>
+                                </li>
+                            {/each}
+                        </ul>
+                    </div>
+                {/if}
 
                 {#if challenge.fact}
                     <div class="bg-muted/30 p-4 rounded-lg">

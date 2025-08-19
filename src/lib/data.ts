@@ -1,6 +1,6 @@
 import type { ChallengeDayType } from "./utils";
 
-export const challengeData: ChallengeDayType[] = [
+export const challengeData2: ChallengeDayType[] = [
     {
         day: 1,
         title: "Identify Your Stressors",
@@ -663,11 +663,12 @@ export const challengeData: ChallengeDayType[] = [
     }
 ]
 
-export const challengeData2: ChallengeDayType[] = [
+export const challengeData: ChallengeDayType[] = [
 {
   "day": 1,
   category: "awareness",
-  link: "/day/1","title": "Stress Inventory",
+  link: "/day/1",
+  "title": "Stress Inventory",
   "description": "List things that commonly stress you out.",
   "detailedDescription": "Identify common stressors in your life—school, relationships, finances, etc. Awareness is the first step toward change.",
   "tips": [
@@ -679,8 +680,9 @@ export const challengeData2: ChallengeDayType[] = [
 },
 {
   "day": 2,
-  category: "awareness",
-  link: "/day/1","title": "Coping Toolkit",
+  category: "coping",
+  link: "/day/2",
+  "title": "Coping Toolkit",
   "description": "Find out any way you can cope with the triggers.",
   "detailedDescription": "Explore healthy coping strategies for your top stressors. Build a personalized toolkit to manage stress effectively.",
   "tips": [
@@ -694,8 +696,9 @@ export const challengeData2: ChallengeDayType[] = [
 },
 {
   "day": 3,
-  category: "awareness",
-  link: "/day/1","title": "Sound Therapy",
+  category: "relaxation",
+  link: "/day/3",
+  "title": "Sound Therapy",
   "description": "Listen to a song that calms you.",
   "fact": {
     "text": "Music activates the same brain areas as chocolate and hugs.",
@@ -711,8 +714,9 @@ export const challengeData2: ChallengeDayType[] = [
 },
 {
   "day": 4,
-  category: "awareness",
-  link: "/day/1","title": "Letter to Future You",
+  category: "reflection",
+  link: "/day/4",
+  "title": "Letter to Future You",
   "description": "Write a letter to your future self.",
   "detailedDescription": "Include hopes, affirmations, and reminders. Reflect on your current mindset and goals, and send encouragement to your future self.",
   "tips": [
@@ -726,8 +730,9 @@ export const challengeData2: ChallengeDayType[] = [
 },
 {
   "day": 5,
-  category: "awareness",
-  link: "/day/1","title": "Mental Health Fact Hunt",
+  category: "education",
+  link: "/day/5",
+  "title": "Mental Health Fact Hunt",
   "description": "Learn one mental health fact.",
   "fact": {
     "text": "1 in 5 adults in the U.S. experiences mental illness each year.",
@@ -745,8 +750,9 @@ export const challengeData2: ChallengeDayType[] = [
 },
 {
   "day": 6,
-  category: "awareness",
-  link: "/day/1","title": "Creative Expression",
+  category: "creativity",
+  link: "/day/6",
+  "title": "Creative Expression",
   "description": "Express yourself creatively (Draw, paint, or write a poem.)",
   "detailedDescription": "Tap into your inner artist to express emotions and thoughts. Creative outlets help process feelings and reduce stress.",
   "tips": [
@@ -758,8 +764,9 @@ export const challengeData2: ChallengeDayType[] = [
 },
 {
   "day": 7,
-  category: "awareness",
-  link: "/day/1","title": "Wind Down Routine",
+  category: "routine",
+  link: "/day/7",
+  "title": "Wind Down Routine",
   "description": "Write a wind down routine",
   "detailedDescription": "Design a calming evening ritual to help you transition from day to night. This supports better sleep and mental clarity.",
   "tips": [
@@ -771,8 +778,9 @@ export const challengeData2: ChallengeDayType[] = [
 },
 {
   "day": 8,
-  category: "awareness",
-  link: "/day/1","title": "Cognitive Reframing",
+  category: "mindfulness",
+  link: "/day/8",
+  "title": "Cognitive Reframing",
   "description": "Practice cognitive reframing",
   "detailedDescription": "Learn to shift negative thoughts into more balanced perspectives. This technique helps reduce anxiety and build resilience.",
   "tips": [
@@ -784,8 +792,9 @@ export const challengeData2: ChallengeDayType[] = [
 },
 {
   "day": 9,
-  category: "awareness",
-  link: "/day/1","title": "Speak Your Truth",
+  category: "community",
+  link: "/day/9",
+  "title": "Speak Your Truth",
   "description": "Share your experience w/ mental health struggles",
   "fact": {
     "text": "Speaking out about personal struggles reduces stigma and fosters understanding and empathy.",
@@ -801,8 +810,9 @@ export const challengeData2: ChallengeDayType[] = [
 },
 {
   "day": 10,
-  category: "awareness",
-  link: "/day/1","title": "Check In With Others",
+  category: "community",
+  link: "/day/10",
+  "title": "Check In With Others",
   "description": "Ask someone who seems down how they are doing",
   "fact": {
     "text": "Stigma can prevent people from asking for the help they need.",
@@ -818,8 +828,9 @@ export const challengeData2: ChallengeDayType[] = [
 },
 {
   "day": 11,
-  category: "awareness",
-  link: "/day/1","title": "Visit Mental Health Services",
+  category: "support",
+  link: "/day/11",
+  "title": "Visit Mental Health Services",
   "description": "Visit student mental health services",
   "detailedDescription": "Explore the mental health resources available on campus. Meeting with a counselor or learning about services can be a powerful first step.",
   "tips": [
@@ -834,8 +845,9 @@ export const challengeData2: ChallengeDayType[] = [
 },
 {
   "day": 12,
-  category: "awareness",
-  link: "/day/1","title": "Listen to Marginalized Voices",
+  category: "community",
+  link: "/day/12",
+  "title": "Listen to Marginalized Voices",
   "description": "Reach out to marginalized students & listen to their experience",
   "fact": {
     "text": "Minority and marginalized students face additional hardships and increased barriers to getting help.",
@@ -851,8 +863,9 @@ export const challengeData2: ChallengeDayType[] = [
 },
 {
   "day": 13,
-  category: "awareness",
-  link: "/day/1","title": "Attend a Mental Health Event",
+  category: "community",
+  link: "/day/13",
+  "title": "Attend a Mental Health Event",
   "description": "Attend a mental health services meet-up or event",
   "detailedDescription": "Join a campus event focused on mental wellness. These gatherings offer education, connection, and support.",
   "tips": [
@@ -866,8 +879,9 @@ export const challengeData2: ChallengeDayType[] = [
 },
 {
   "day": 14,
-  category: "awareness",
-  link: "/day/1","title": "Explore Crisis Resources",
+  category: "support",
+  link: "/day/14",
+  "title": "Explore Crisis Resources",
   "description": "Check out Clark County’s Crisis System",
   "detailedDescription": "Familiarize yourself with local crisis support options. Knowing where to turn in an emergency is essential.",
   "tips": [
@@ -879,8 +893,9 @@ export const challengeData2: ChallengeDayType[] = [
 },
 {
   "day": 15,
-  category: "awareness",
-  link: "/day/1","title": "Join a Campus Group",
+  category: "community",
+  link: "/day/15",
+  "title": "Join a Campus Group",
   "description": "Find a club/group to join on campus",
   "fact": {
     "text": "Joining a club has been shown to reduce stress and anxiety by providing emotional support and social engagement.",
@@ -896,8 +911,9 @@ export const challengeData2: ChallengeDayType[] = [
 },
 {
   "day": 16,
-  category: "awareness",
-  link: "/day/1","title": "No Short-Form Video",
+  category: "digital-detox",
+  link: "/day/16",
+  "title": "No Short-Form Video",
   "description": "No short forms of video for the day",
   "fact": {
     "text": "Studies have shown that short form video addiction leads to academic procrastination.",
@@ -913,8 +929,9 @@ export const challengeData2: ChallengeDayType[] = [
 },
 {
   "day": 17,
-  category: "awareness",
-  link: "/day/1","title": "Limit Phone Time",
+  category: "digital-detox",
+  link: "/day/17",
+  "title": "Limit Phone Time",
   "description": "Limit phone time to two hours",
   "fact": {
     "text": "Excessive screen time can lead to or worsen mental health challenges like anxiety, depression or PTSD.",
@@ -930,8 +947,9 @@ export const challengeData2: ChallengeDayType[] = [
 },
 {
   "day": 18,
-  category: "awareness",
-  link: "/day/1","title": "No Video Games",
+  category: "digital-detox",
+  link: "/day/18",
+  "title": "No Video Games",
   "description": "No videogames for the day",
   "fact": {
     "text": "Limiting your time spent staring at a screen has been shown to increase sleep quality and focus.",
@@ -947,8 +965,9 @@ export const challengeData2: ChallengeDayType[] = [
 },
 {
   "day": 19,
-  category: "awareness",
-  link: "/day/1","title": "Social Media Detox",
+  category: "digital-detox",
+  link: "/day/19",
+  "title": "Social Media Detox",
   "description": "No social media for the day",
   "fact": {
     "text": "The average person spends 145 minutes on social media each day.",
@@ -964,8 +983,9 @@ export const challengeData2: ChallengeDayType[] = [
 },
 {
   "day": 20,
-  category: "awareness",
-  link: "/day/1","title": "Business-Only Electronics",
+  category: "digital-detox",
+  link: "/day/20",
+  "title": "Business-Only Electronics",
   "description": "Use electronics only for Business purposes",
   "fact": {
     "text": "Limiting technology usage can reduce eye strain and improve your posture.",
@@ -981,8 +1001,9 @@ export const challengeData2: ChallengeDayType[] = [
 },
 {
   "day": 21,
-  category: "awareness",
-  link: "/day/1","title": "Flip Phone Day",
+  category: "digital-detox",
+  link: "/day/21",
+  "title": "Flip Phone Day",
   "description": "Flip phone day (call and text ONLY)",
   "fact": {
     "text": "Spending less time using phones and computers motivates you to spend more time physically exerting yourself, leading to improved health.",
@@ -998,8 +1019,9 @@ export const challengeData2: ChallengeDayType[] = [
 },
 {
   "day": 22,
-  category: "awareness",
-  link: "/day/1","title": "Wall Phone Day",
+  category: "digital-detox",
+  link: "/day/22",
+  "title": "Wall Phone Day",
   "description": "Wall phone day (Only use to call)",
   "fact": {
     "text": "Talking on the phone causes the release of oxytocin, a hormone that is important for social bonding and stress management, which isn’t released during texting.",
@@ -1015,8 +1037,9 @@ export const challengeData2: ChallengeDayType[] = [
 },
 {
   "day": 23,
-  category: "awareness",
-  link: "/day/1","title": "Gratitude Practice",
+  category: "mindfulness",
+  link: "/day/23",
+  "title": "Gratitude Practice",
   "description": "Write down 3 things you’re grateful for every day.",
   "fact": {
     "text": "Studies show that practicing gratitude can increase happiness and reduce symptoms of depression by shifting focus toward positive experiences.",
@@ -1032,8 +1055,9 @@ export const challengeData2: ChallengeDayType[] = [
 },
 {
   "day": 24,
-  category: "awareness",
-  link: "/day/1","title": "Walk It Out",
+  category: "physical",
+  link: "/day/24",
+  "title": "Walk It Out",
   "description": "Take a walk outside for at least 10 minutes each day.",
   "fact": {
     "text": "Even short periods of physical activity can boost endorphins and lower stress hormones like cortisol.",
@@ -1049,8 +1073,9 @@ export const challengeData2: ChallengeDayType[] = [
 },
 {
   "day": 25,
-  category: "awareness",
-  link: "/day/1","title": "Self-Care Day",
+  category: "self-care",
+  link: "/day/25",
+  "title": "Self-Care Day",
   "description": "Have a self care day for yourself",
   "detailedDescription": "Dedicate today to nurturing yourself. Whether it’s rest, pampering, or reflection—do what makes you feel whole.",
   "tips": [
@@ -1062,8 +1087,9 @@ export const challengeData2: ChallengeDayType[] = [
 },
 {
   "day": 26,
-  category: "awareness",
-  link: "/day/1","title": "Mindful Breathing",
+  category: "mindfulness",
+  link: "/day/26",
+  "title": "Mindful Breathing",
   "description": "Practice mindful breathing for 5 minutes each morning.",
   "fact": {
     "text": "Deep breathing exercises help calm the nervous system, lowering heart rate and promoting relaxation.",
@@ -1079,8 +1105,9 @@ export const challengeData2: ChallengeDayType[] = [
 },
 {
   "day": 27,
-  category: "awareness",
-  link: "/day/1","title": "Acts of Kindness",
+  category: "community",
+  link: "/day/27",
+  "title": "Acts of Kindness",
   "description": "Do one kind thing for someone each day",
   "fact": {
     "text": "Helping others triggers the brain’s reward system, releasing feel-good chemicals like dopamine and oxytocin.",
@@ -1096,8 +1123,9 @@ export const challengeData2: ChallengeDayType[] = [
 },
 {
   "day": 28,
-  category: "awareness",
-  link: "/day/1","title": "Creative Flow",
+  category: "creativity",
+  link: "/day/28",
+  "title": "Creative Flow",
   "description": "Spend 15 minutes a day doing something creative",
   "fact": {
     "text": "Creative activities reduce stress by activating the brain’s “flow state,” which improves mood and focus.",
@@ -1113,8 +1141,9 @@ export const challengeData2: ChallengeDayType[] = [
 },
 {
   "day": 29,
-  category: "awareness",
-  link: "/day/1","title": "Sleep Consistency",
+  category: "routine",
+  link: "/day/29",
+  "title": "Sleep Consistency",
   "description": "Go to bed and wake up at the same time every day, even on weekends.",
   "fact": {
     "text": "A consistent sleep schedule strengthens your circadian rhythm, leading to better mental clarity and emotional stability.",
@@ -1130,8 +1159,9 @@ export const challengeData2: ChallengeDayType[] = [
 },
 {
   "day": 30,
-  category: "awareness",
-  link: "/day/1","title": "Try Something New",
+  category: "growth",
+  link: "/day/30",
+  "title": "Try Something New",
   "description": "Try something new (Food, exercise, book)",
   "detailedDescription": "End the challenge by stepping outside your comfort zone. Novelty stimulates the brain and builds confidence.",
   "tips": [
