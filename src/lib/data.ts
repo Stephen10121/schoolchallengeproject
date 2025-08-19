@@ -1,668 +1,5 @@
 import type { ChallengeDayType } from "./utils";
 
-export const challengeData2: ChallengeDayType[] = [
-    {
-        day: 1,
-        title: "Identify Your Stressors",
-        description: "List things that commonly stress you out.",
-        category: "awareness",
-        link: "/day/1",
-        detailedDescription: "Take some time today to reflect on what triggers stress in your life. Write down specific situations, people, or thoughts that commonly cause you to feel overwhelmed. This awareness is the first step toward managing stress more effectively.",
-        tips: [
-            "Find a quiet space where you won't be interrupted",
-            "Write without judgment - just observe and note",
-            "Consider both external (work, relationships) and internal (thoughts, expectations) stressors",
-            "Keep this list handy for future reference",
-        ],
-        fact: {
-            source: "#",
-            text: "A Fun Fact."
-        },
-        resources: [
-            "https://www.mayoclinichealthsystem.org/hometown-health/speaking-of-health/can-expressing-gratitude-improve-health",
-            "https://www.health.harvard.edu/staying-healthy/exercising-to-relax"
-        ]
-    },
-    {
-        day: 2,
-        title: "Identify Your Stressors efselkfnsekjfn",
-        description: "List things that commonly stress you out.",
-        category: "awareness",
-        link: "/day/2",
-        detailedDescription: "Take some time today to reflect on what triggers stress in your life. Write down specific situations, people, or thoughts that commonly cause you to feel overwhelmed. This awareness is the first step toward managing stress more effectively.",
-        tips: [
-            "Find a quiet space where you won't be interrupted",
-            "Write without judgment - just observe and note",
-            "Consider both external (work, relationships) and internal (thoughts, expectations) stressors",
-            "Keep this list handy for future reference",
-        ],
-        fact: {
-            source: "#",
-            text: "A Fun Fact."
-        },
-        resources: [
-            "https://www.mayoclinichealthsystem.org/hometown-health/speaking-of-health/can-expressing-gratitude-improve-health",
-            "https://www.health.harvard.edu/staying-healthy/exercising-to-relax"
-        ]
-    },
-    {
-        day: 3,
-        title: "Identify Your Stressors efselkfnsekjfn",
-        description: "List things that commonly stress you out.",
-        category: "awareness",
-        link: "/day/2",
-        detailedDescription: "Take some time today to reflect on what triggers stress in your life. Write down specific situations, people, or thoughts that commonly cause you to feel overwhelmed. This awareness is the first step toward managing stress more effectively.",
-        tips: [
-            "Find a quiet space where you won't be interrupted",
-            "Write without judgment - just observe and note",
-            "Consider both external (work, relationships) and internal (thoughts, expectations) stressors",
-            "Keep this list handy for future reference",
-        ],
-        fact: {
-            source: "#",
-            text: "A Fun Fact."
-        },
-        resources: [
-            "https://www.mayoclinichealthsystem.org/hometown-health/speaking-of-health/can-expressing-gratitude-improve-health",
-            "https://www.health.harvard.edu/staying-healthy/exercising-to-relax"
-        ]
-    },
-    {
-        day: 4,
-        title: "Identify Your Stressors efselkfnsekjfn",
-        description: "List things that commonly stress you out.",
-        category: "awareness",
-        link: "/day/2",
-        detailedDescription: "Take some time today to reflect on what triggers stress in your life. Write down specific situations, people, or thoughts that commonly cause you to feel overwhelmed. This awareness is the first step toward managing stress more effectively.",
-        tips: [
-            "Find a quiet space where you won't be interrupted",
-            "Write without judgment - just observe and note",
-            "Consider both external (work, relationships) and internal (thoughts, expectations) stressors",
-            "Keep this list handy for future reference",
-        ],
-        fact: {
-            source: "#",
-            text: "A Fun Fact."
-        },
-        resources: [
-            "https://www.mayoclinichealthsystem.org/hometown-health/speaking-of-health/can-expressing-gratitude-improve-health",
-            "https://www.health.harvard.edu/staying-healthy/exercising-to-relax"
-        ]
-    },
-    {
-        day: 5,
-        title: "Identify Your Stressors efselkfnsekjfn",
-        description: "List things that commonly stress you out.",
-        category: "awareness",
-        link: "/day/2",
-        detailedDescription: "Take some time today to reflect on what triggers stress in your life. Write down specific situations, people, or thoughts that commonly cause you to feel overwhelmed. This awareness is the first step toward managing stress more effectively.",
-        tips: [
-            "Find a quiet space where you won't be interrupted",
-            "Write without judgment - just observe and note",
-            "Consider both external (work, relationships) and internal (thoughts, expectations) stressors",
-            "Keep this list handy for future reference",
-        ],
-        fact: {
-            source: "#",
-            text: "A Fun Fact."
-        },
-        resources: [
-            "https://www.mayoclinichealthsystem.org/hometown-health/speaking-of-health/can-expressing-gratitude-improve-health",
-            "https://www.health.harvard.edu/staying-healthy/exercising-to-relax"
-        ]
-    },
-    {
-        day: 6,
-        title: "Identify Your Stressors efselkfnsekjfn",
-        description: "List things that commonly stress you out.",
-        category: "awareness",
-        link: "/day/2",
-        detailedDescription: "Take some time today to reflect on what triggers stress in your life. Write down specific situations, people, or thoughts that commonly cause you to feel overwhelmed. This awareness is the first step toward managing stress more effectively.",
-        tips: [
-            "Find a quiet space where you won't be interrupted",
-            "Write without judgment - just observe and note",
-            "Consider both external (work, relationships) and internal (thoughts, expectations) stressors",
-            "Keep this list handy for future reference",
-        ],
-        fact: {
-            source: "#",
-            text: "A Fun Fact."
-        },
-        resources: [
-            "https://www.mayoclinichealthsystem.org/hometown-health/speaking-of-health/can-expressing-gratitude-improve-health",
-            "https://www.health.harvard.edu/staying-healthy/exercising-to-relax"
-        ]
-    },
-    {
-        day: 7,
-        title: "Identify Your Stressors efselkfnsekjfn",
-        description: "List things that commonly stress you out.",
-        category: "awareness",
-        link: "/day/2",
-        detailedDescription: "Take some time today to reflect on what triggers stress in your life. Write down specific situations, people, or thoughts that commonly cause you to feel overwhelmed. This awareness is the first step toward managing stress more effectively.",
-        tips: [
-            "Find a quiet space where you won't be interrupted",
-            "Write without judgment - just observe and note",
-            "Consider both external (work, relationships) and internal (thoughts, expectations) stressors",
-            "Keep this list handy for future reference",
-        ],
-        fact: {
-            source: "#",
-            text: "A Fun Fact."
-        },
-        resources: [
-            "https://www.mayoclinichealthsystem.org/hometown-health/speaking-of-health/can-expressing-gratitude-improve-health",
-            "https://www.health.harvard.edu/staying-healthy/exercising-to-relax"
-        ]
-    },
-    {
-        day: 8,
-        title: "Identify Your Stressors efselkfnsekjfn",
-        description: "List things that commonly stress you out.",
-        category: "awareness",
-        link: "/day/2",
-        detailedDescription: "Take some time today to reflect on what triggers stress in your life. Write down specific situations, people, or thoughts that commonly cause you to feel overwhelmed. This awareness is the first step toward managing stress more effectively.",
-        tips: [
-            "Find a quiet space where you won't be interrupted",
-            "Write without judgment - just observe and note",
-            "Consider both external (work, relationships) and internal (thoughts, expectations) stressors",
-            "Keep this list handy for future reference",
-        ],
-        fact: {
-            source: "#",
-            text: "A Fun Fact."
-        },
-        resources: [
-            "https://www.mayoclinichealthsystem.org/hometown-health/speaking-of-health/can-expressing-gratitude-improve-health",
-            "https://www.health.harvard.edu/staying-healthy/exercising-to-relax"
-        ]
-    },
-    {
-        day: 9,
-        title: "Identify Your Stressors efselkfnsekjfn",
-        description: "List things that commonly stress you out.",
-        category: "awareness",
-        link: "/day/2",
-        detailedDescription: "Take some time today to reflect on what triggers stress in your life. Write down specific situations, people, or thoughts that commonly cause you to feel overwhelmed. This awareness is the first step toward managing stress more effectively.",
-        tips: [
-            "Find a quiet space where you won't be interrupted",
-            "Write without judgment - just observe and note",
-            "Consider both external (work, relationships) and internal (thoughts, expectations) stressors",
-            "Keep this list handy for future reference",
-        ],
-        fact: {
-            source: "#",
-            text: "A Fun Fact."
-        },
-        resources: [
-            "https://www.mayoclinichealthsystem.org/hometown-health/speaking-of-health/can-expressing-gratitude-improve-health",
-            "https://www.health.harvard.edu/staying-healthy/exercising-to-relax"
-        ]
-    },
-    {
-        day: 10,
-        title: "Identify Your Stressors efselkfnsekjfn",
-        description: "List things that commonly stress you out.",
-        category: "awareness",
-        link: "/day/2",
-        detailedDescription: "Take some time today to reflect on what triggers stress in your life. Write down specific situations, people, or thoughts that commonly cause you to feel overwhelmed. This awareness is the first step toward managing stress more effectively.",
-        tips: [
-            "Find a quiet space where you won't be interrupted",
-            "Write without judgment - just observe and note",
-            "Consider both external (work, relationships) and internal (thoughts, expectations) stressors",
-            "Keep this list handy for future reference",
-        ],
-        fact: {
-            source: "#",
-            text: "A Fun Fact."
-        },
-        resources: [
-            "https://www.mayoclinichealthsystem.org/hometown-health/speaking-of-health/can-expressing-gratitude-improve-health",
-            "https://www.health.harvard.edu/staying-healthy/exercising-to-relax"
-        ]
-    },
-    {
-        day: 11,
-        title: "Identify Your Stressors efselkfnsekjfn",
-        description: "List things that commonly stress you out.",
-        category: "awareness",
-        link: "/day/2",
-        detailedDescription: "Take some time today to reflect on what triggers stress in your life. Write down specific situations, people, or thoughts that commonly cause you to feel overwhelmed. This awareness is the first step toward managing stress more effectively.",
-        tips: [
-            "Find a quiet space where you won't be interrupted",
-            "Write without judgment - just observe and note",
-            "Consider both external (work, relationships) and internal (thoughts, expectations) stressors",
-            "Keep this list handy for future reference",
-        ],
-        fact: {
-            source: "#",
-            text: "A Fun Fact."
-        },
-        resources: [
-            "https://www.mayoclinichealthsystem.org/hometown-health/speaking-of-health/can-expressing-gratitude-improve-health",
-            "https://www.health.harvard.edu/staying-healthy/exercising-to-relax"
-        ]
-    },
-    {
-        day: 12,
-        title: "Identify Your Stressors efselkfnsekjfn",
-        description: "List things that commonly stress you out.",
-        category: "awareness",
-        link: "/day/2",
-        detailedDescription: "Take some time today to reflect on what triggers stress in your life. Write down specific situations, people, or thoughts that commonly cause you to feel overwhelmed. This awareness is the first step toward managing stress more effectively.",
-        tips: [
-            "Find a quiet space where you won't be interrupted",
-            "Write without judgment - just observe and note",
-            "Consider both external (work, relationships) and internal (thoughts, expectations) stressors",
-            "Keep this list handy for future reference",
-        ],
-        fact: {
-            source: "#",
-            text: "A Fun Fact."
-        },
-        resources: [
-            "https://www.mayoclinichealthsystem.org/hometown-health/speaking-of-health/can-expressing-gratitude-improve-health",
-            "https://www.health.harvard.edu/staying-healthy/exercising-to-relax"
-        ]
-    },
-    {
-        day: 13,
-        title: "Identify Your Stressors efselkfnsekjfn",
-        description: "List things that commonly stress you out.",
-        category: "awareness",
-        link: "/day/2",
-        detailedDescription: "Take some time today to reflect on what triggers stress in your life. Write down specific situations, people, or thoughts that commonly cause you to feel overwhelmed. This awareness is the first step toward managing stress more effectively.",
-        tips: [
-            "Find a quiet space where you won't be interrupted",
-            "Write without judgment - just observe and note",
-            "Consider both external (work, relationships) and internal (thoughts, expectations) stressors",
-            "Keep this list handy for future reference",
-        ],
-        fact: {
-            source: "#",
-            text: "A Fun Fact."
-        },
-        resources: [
-            "https://www.mayoclinichealthsystem.org/hometown-health/speaking-of-health/can-expressing-gratitude-improve-health",
-            "https://www.health.harvard.edu/staying-healthy/exercising-to-relax"
-        ]
-    },
-    {
-        day: 14,
-        title: "Identify Your Stressors efselkfnsekjfn",
-        description: "List things that commonly stress you out.",
-        category: "awareness",
-        link: "/day/2",
-        detailedDescription: "Take some time today to reflect on what triggers stress in your life. Write down specific situations, people, or thoughts that commonly cause you to feel overwhelmed. This awareness is the first step toward managing stress more effectively.",
-        tips: [
-            "Find a quiet space where you won't be interrupted",
-            "Write without judgment - just observe and note",
-            "Consider both external (work, relationships) and internal (thoughts, expectations) stressors",
-            "Keep this list handy for future reference",
-        ],
-        fact: {
-            source: "#",
-            text: "A Fun Fact."
-        },
-        resources: [
-            "https://www.mayoclinichealthsystem.org/hometown-health/speaking-of-health/can-expressing-gratitude-improve-health",
-            "https://www.health.harvard.edu/staying-healthy/exercising-to-relax"
-        ]
-    },
-    {
-        day: 15,
-        title: "Identify Your Stressors efselkfnsekjfn",
-        description: "List things that commonly stress you out.",
-        category: "awareness",
-        link: "/day/2",
-        detailedDescription: "Take some time today to reflect on what triggers stress in your life. Write down specific situations, people, or thoughts that commonly cause you to feel overwhelmed. This awareness is the first step toward managing stress more effectively.",
-        tips: [
-            "Find a quiet space where you won't be interrupted",
-            "Write without judgment - just observe and note",
-            "Consider both external (work, relationships) and internal (thoughts, expectations) stressors",
-            "Keep this list handy for future reference",
-        ],
-        fact: {
-            source: "#",
-            text: "A Fun Fact."
-        },
-        resources: [
-            "https://www.mayoclinichealthsystem.org/hometown-health/speaking-of-health/can-expressing-gratitude-improve-health",
-            "https://www.health.harvard.edu/staying-healthy/exercising-to-relax"
-        ]
-    },
-    {
-        day: 16,
-        title: "Identify Your Stressors efselkfnsekjfn",
-        description: "List things that commonly stress you out.",
-        category: "awareness",
-        link: "/day/2",
-        detailedDescription: "Take some time today to reflect on what triggers stress in your life. Write down specific situations, people, or thoughts that commonly cause you to feel overwhelmed. This awareness is the first step toward managing stress more effectively.",
-        tips: [
-            "Find a quiet space where you won't be interrupted",
-            "Write without judgment - just observe and note",
-            "Consider both external (work, relationships) and internal (thoughts, expectations) stressors",
-            "Keep this list handy for future reference",
-        ],
-        fact: {
-            source: "#",
-            text: "A Fun Fact."
-        },
-        resources: [
-            "https://www.mayoclinichealthsystem.org/hometown-health/speaking-of-health/can-expressing-gratitude-improve-health",
-            "https://www.health.harvard.edu/staying-healthy/exercising-to-relax"
-        ]
-    },
-    {
-        day: 17,
-        title: "Identify Your Stressors efselkfnsekjfn",
-        description: "List things that commonly stress you out.",
-        category: "awareness",
-        link: "/day/2",
-        detailedDescription: "Take some time today to reflect on what triggers stress in your life. Write down specific situations, people, or thoughts that commonly cause you to feel overwhelmed. This awareness is the first step toward managing stress more effectively.",
-        tips: [
-            "Find a quiet space where you won't be interrupted",
-            "Write without judgment - just observe and note",
-            "Consider both external (work, relationships) and internal (thoughts, expectations) stressors",
-            "Keep this list handy for future reference",
-        ],
-        fact: {
-            source: "#",
-            text: "A Fun Fact."
-        },
-        resources: [
-            "https://www.mayoclinichealthsystem.org/hometown-health/speaking-of-health/can-expressing-gratitude-improve-health",
-            "https://www.health.harvard.edu/staying-healthy/exercising-to-relax"
-        ]
-    },
-    {
-        day: 18,
-        title: "Identify Your Stressors efselkfnsekjfn",
-        description: "List things that commonly stress you out.",
-        category: "awareness",
-        link: "/day/2",
-        detailedDescription: "Take some time today to reflect on what triggers stress in your life. Write down specific situations, people, or thoughts that commonly cause you to feel overwhelmed. This awareness is the first step toward managing stress more effectively.",
-        tips: [
-            "Find a quiet space where you won't be interrupted",
-            "Write without judgment - just observe and note",
-            "Consider both external (work, relationships) and internal (thoughts, expectations) stressors",
-            "Keep this list handy for future reference",
-        ],
-        fact: {
-            source: "#",
-            text: "A Fun Fact."
-        },
-        resources: [
-            "https://www.mayoclinichealthsystem.org/hometown-health/speaking-of-health/can-expressing-gratitude-improve-health",
-            "https://www.health.harvard.edu/staying-healthy/exercising-to-relax"
-        ]
-    },
-    {
-        day: 19,
-        title: "Identify Your Stressors efselkfnsekjfn",
-        description: "List things that commonly stress you out.",
-        category: "awareness",
-        link: "/day/2",
-        detailedDescription: "Take some time today to reflect on what triggers stress in your life. Write down specific situations, people, or thoughts that commonly cause you to feel overwhelmed. This awareness is the first step toward managing stress more effectively.",
-        tips: [
-            "Find a quiet space where you won't be interrupted",
-            "Write without judgment - just observe and note",
-            "Consider both external (work, relationships) and internal (thoughts, expectations) stressors",
-            "Keep this list handy for future reference",
-        ],
-        fact: {
-            source: "#",
-            text: "A Fun Fact."
-        },
-        resources: [
-            "https://www.mayoclinichealthsystem.org/hometown-health/speaking-of-health/can-expressing-gratitude-improve-health",
-            "https://www.health.harvard.edu/staying-healthy/exercising-to-relax"
-        ]
-    },
-    {
-        day: 20,
-        title: "Identify Your Stressors efselkfnsekjfn",
-        description: "List things that commonly stress you out.",
-        category: "awareness",
-        link: "/day/2",
-        detailedDescription: "Take some time today to reflect on what triggers stress in your life. Write down specific situations, people, or thoughts that commonly cause you to feel overwhelmed. This awareness is the first step toward managing stress more effectively.",
-        tips: [
-            "Find a quiet space where you won't be interrupted",
-            "Write without judgment - just observe and note",
-            "Consider both external (work, relationships) and internal (thoughts, expectations) stressors",
-            "Keep this list handy for future reference",
-        ],
-        fact: {
-            source: "#",
-            text: "A Fun Fact."
-        },
-        resources: [
-            "https://www.mayoclinichealthsystem.org/hometown-health/speaking-of-health/can-expressing-gratitude-improve-health",
-            "https://www.health.harvard.edu/staying-healthy/exercising-to-relax"
-        ]
-    },
-    {
-        day: 21,
-        title: "Identify Your Stressors efselkfnsekjfn",
-        description: "List things that commonly stress you out.",
-        category: "awareness",
-        link: "/day/2",
-        detailedDescription: "Take some time today to reflect on what triggers stress in your life. Write down specific situations, people, or thoughts that commonly cause you to feel overwhelmed. This awareness is the first step toward managing stress more effectively.",
-        tips: [
-            "Find a quiet space where you won't be interrupted",
-            "Write without judgment - just observe and note",
-            "Consider both external (work, relationships) and internal (thoughts, expectations) stressors",
-            "Keep this list handy for future reference",
-        ],
-        fact: {
-            source: "#",
-            text: "A Fun Fact."
-        },
-        resources: [
-            "https://www.mayoclinichealthsystem.org/hometown-health/speaking-of-health/can-expressing-gratitude-improve-health",
-            "https://www.health.harvard.edu/staying-healthy/exercising-to-relax"
-        ]
-    },
-    {
-        day: 22,
-        title: "Identify Your Stressors efselkfnsekjfn",
-        description: "List things that commonly stress you out.",
-        category: "awareness",
-        link: "/day/2",
-        detailedDescription: "Take some time today to reflect on what triggers stress in your life. Write down specific situations, people, or thoughts that commonly cause you to feel overwhelmed. This awareness is the first step toward managing stress more effectively.",
-        tips: [
-            "Find a quiet space where you won't be interrupted",
-            "Write without judgment - just observe and note",
-            "Consider both external (work, relationships) and internal (thoughts, expectations) stressors",
-            "Keep this list handy for future reference",
-        ],
-        fact: {
-            source: "#",
-            text: "A Fun Fact."
-        },
-        resources: [
-            "https://www.mayoclinichealthsystem.org/hometown-health/speaking-of-health/can-expressing-gratitude-improve-health",
-            "https://www.health.harvard.edu/staying-healthy/exercising-to-relax"
-        ]
-    },
-    {
-        day: 23,
-        title: "Identify Your Stressors efselkfnsekjfn",
-        description: "List things that commonly stress you out.",
-        category: "awareness",
-        link: "/day/2",
-        detailedDescription: "Take some time today to reflect on what triggers stress in your life. Write down specific situations, people, or thoughts that commonly cause you to feel overwhelmed. This awareness is the first step toward managing stress more effectively.",
-        tips: [
-            "Find a quiet space where you won't be interrupted",
-            "Write without judgment - just observe and note",
-            "Consider both external (work, relationships) and internal (thoughts, expectations) stressors",
-            "Keep this list handy for future reference",
-        ],
-        fact: {
-            source: "#",
-            text: "A Fun Fact."
-        },
-        resources: [
-            "https://www.mayoclinichealthsystem.org/hometown-health/speaking-of-health/can-expressing-gratitude-improve-health",
-            "https://www.health.harvard.edu/staying-healthy/exercising-to-relax"
-        ]
-    },
-    {
-        day: 24,
-        title: "Identify Your Stressors efselkfnsekjfn",
-        description: "List things that commonly stress you out.",
-        category: "awareness",
-        link: "/day/2",
-        detailedDescription: "Take some time today to reflect on what triggers stress in your life. Write down specific situations, people, or thoughts that commonly cause you to feel overwhelmed. This awareness is the first step toward managing stress more effectively.",
-        tips: [
-            "Find a quiet space where you won't be interrupted",
-            "Write without judgment - just observe and note",
-            "Consider both external (work, relationships) and internal (thoughts, expectations) stressors",
-            "Keep this list handy for future reference",
-        ],
-        fact: {
-            source: "#",
-            text: "A Fun Fact."
-        },
-        resources: [
-            "https://www.mayoclinichealthsystem.org/hometown-health/speaking-of-health/can-expressing-gratitude-improve-health",
-            "https://www.health.harvard.edu/staying-healthy/exercising-to-relax"
-        ]
-    },
-    {
-        day: 25,
-        title: "Identify Your Stressors efselkfnsekjfn",
-        description: "List things that commonly stress you out.",
-        category: "awareness",
-        link: "/day/2",
-        detailedDescription: "Take some time today to reflect on what triggers stress in your life. Write down specific situations, people, or thoughts that commonly cause you to feel overwhelmed. This awareness is the first step toward managing stress more effectively.",
-        tips: [
-            "Find a quiet space where you won't be interrupted",
-            "Write without judgment - just observe and note",
-            "Consider both external (work, relationships) and internal (thoughts, expectations) stressors",
-            "Keep this list handy for future reference",
-        ],
-        fact: {
-            source: "#",
-            text: "A Fun Fact."
-        },
-        resources: [
-            "https://www.mayoclinichealthsystem.org/hometown-health/speaking-of-health/can-expressing-gratitude-improve-health",
-            "https://www.health.harvard.edu/staying-healthy/exercising-to-relax"
-        ]
-    },
-    {
-        day: 26,
-        title: "Identify Your Stressors efselkfnsekjfn",
-        description: "List things that commonly stress you out.",
-        category: "awareness",
-        link: "/day/2",
-        detailedDescription: "Take some time today to reflect on what triggers stress in your life. Write down specific situations, people, or thoughts that commonly cause you to feel overwhelmed. This awareness is the first step toward managing stress more effectively.",
-        tips: [
-            "Find a quiet space where you won't be interrupted",
-            "Write without judgment - just observe and note",
-            "Consider both external (work, relationships) and internal (thoughts, expectations) stressors",
-            "Keep this list handy for future reference",
-        ],
-        fact: {
-            source: "#",
-            text: "A Fun Fact."
-        },
-        resources: [
-            "https://www.mayoclinichealthsystem.org/hometown-health/speaking-of-health/can-expressing-gratitude-improve-health",
-            "https://www.health.harvard.edu/staying-healthy/exercising-to-relax"
-        ]
-    },
-    {
-        day: 27,
-        title: "Identify Your Stressors efselkfnsekjfn",
-        description: "List things that commonly stress you out.",
-        category: "awareness",
-        link: "/day/2",
-        detailedDescription: "Take some time today to reflect on what triggers stress in your life. Write down specific situations, people, or thoughts that commonly cause you to feel overwhelmed. This awareness is the first step toward managing stress more effectively.",
-        tips: [
-            "Find a quiet space where you won't be interrupted",
-            "Write without judgment - just observe and note",
-            "Consider both external (work, relationships) and internal (thoughts, expectations) stressors",
-            "Keep this list handy for future reference",
-        ],
-        fact: {
-            source: "#",
-            text: "A Fun Fact."
-        },
-        resources: [
-            "https://www.mayoclinichealthsystem.org/hometown-health/speaking-of-health/can-expressing-gratitude-improve-health",
-            "https://www.health.harvard.edu/staying-healthy/exercising-to-relax"
-        ]
-    },
-    {
-        day: 28,
-        title: "Identify Your Stressors efselkfnsekjfn",
-        description: "List things that commonly stress you out.",
-        category: "awareness",
-        link: "/day/2",
-        detailedDescription: "Take some time today to reflect on what triggers stress in your life. Write down specific situations, people, or thoughts that commonly cause you to feel overwhelmed. This awareness is the first step toward managing stress more effectively.",
-        tips: [
-            "Find a quiet space where you won't be interrupted",
-            "Write without judgment - just observe and note",
-            "Consider both external (work, relationships) and internal (thoughts, expectations) stressors",
-            "Keep this list handy for future reference",
-        ],
-        fact: {
-            source: "#",
-            text: "A Fun Fact."
-        },
-        resources: [
-            "https://www.mayoclinichealthsystem.org/hometown-health/speaking-of-health/can-expressing-gratitude-improve-health",
-            "https://www.health.harvard.edu/staying-healthy/exercising-to-relax"
-        ]
-    },
-    {
-        day: 29,
-        title: "Identify Your Stressors efselkfnsekjfn",
-        description: "List things that commonly stress you out.",
-        category: "awareness",
-        link: "/day/2",
-        detailedDescription: "Take some time today to reflect on what triggers stress in your life. Write down specific situations, people, or thoughts that commonly cause you to feel overwhelmed. This awareness is the first step toward managing stress more effectively.",
-        tips: [
-            "Find a quiet space where you won't be interrupted",
-            "Write without judgment - just observe and note",
-            "Consider both external (work, relationships) and internal (thoughts, expectations) stressors",
-            "Keep this list handy for future reference",
-        ],
-        fact: {
-            source: "#",
-            text: "A Fun Fact."
-        },
-        resources: [
-            "https://www.mayoclinichealthsystem.org/hometown-health/speaking-of-health/can-expressing-gratitude-improve-health",
-            "https://www.health.harvard.edu/staying-healthy/exercising-to-relax"
-        ]
-    },
-    {
-        day: 30,
-        title: "Identify Your Stressors efselkfnsekjfn",
-        description: "List things that commonly stress you out.",
-        category: "awareness",
-        link: "/day/2",
-        detailedDescription: "Take some time today to reflect on what triggers stress in your life. Write down specific situations, people, or thoughts that commonly cause you to feel overwhelmed. This awareness is the first step toward managing stress more effectively.",
-        tips: [
-            "Find a quiet space where you won't be interrupted",
-            "Write without judgment - just observe and note",
-            "Consider both external (work, relationships) and internal (thoughts, expectations) stressors",
-            "Keep this list handy for future reference",
-        ],
-        fact: {
-            source: "#",
-            text: "A Fun Fact."
-        },
-        resources: [
-            "https://www.mayoclinichealthsystem.org/hometown-health/speaking-of-health/can-expressing-gratitude-improve-health",
-            "https://www.health.harvard.edu/staying-healthy/exercising-to-relax"
-        ]
-    }
-]
-
 export const challengeData: ChallengeDayType[] = [
 {
   "day": 1,
@@ -762,7 +99,9 @@ export const challengeData: ChallengeDayType[] = [
     "Don’t worry about perfection—focus on expression.",
     "Share your creation with someone if you feel comfortable."
   ],
-  "resources": []
+  "resources": [
+    "https://diversushealth.org/mental-health-blog/the-mental-health-benefits-of-creativity"
+  ]
 },
 {
   "day": 7,
@@ -776,7 +115,13 @@ export const challengeData: ChallengeDayType[] = [
     "Avoid screens 30 minutes before bed.",
     "Stick to the same routine for consistency."
   ],
-  "resources": []
+  fact: {
+    text: "A wind-down routine helps you let go of worries, anxiety, or stress from the day, making you feel more relaxed and prepared for sleep.",
+    source: "https://blog.calm.com/blog/wind-down-time"
+  },
+  "resources": [
+    "https://blog.calm.com/blog/wind-down-time"
+  ]
 },
 {
   "day": 8,
@@ -790,7 +135,13 @@ export const challengeData: ChallengeDayType[] = [
     "Replace it with a more constructive alternative.",
     "Use a journal to track reframed thoughts."
   ],
-  "resources": []
+  fact: {
+    text: "A prior review of scientific evidence found that cognitive reframing is particularly helpful for symptoms of anxiety and depression, and its benefits for these conditions may be long-lasting.",
+    source: "https://www.everydayhealth.com/stress/study-says-heres-how-to-reframe-stress-to-use-it-to-your-advantage/"
+  },
+  "resources": [
+    "https://www.everydayhealth.com/stress/study-says-heres-how-to-reframe-stress-to-use-it-to-your-advantage/"
+  ]
 },
 {
   "day": 9,
@@ -800,7 +151,7 @@ export const challengeData: ChallengeDayType[] = [
   "description": "Share your experience w/ mental health struggles",
   "fact": {
     "text": "Speaking out about personal struggles reduces stigma and fosters understanding and empathy.",
-    "source": "https://www.nami.org/Blogs/NAMI-Blog/October-2020/Why-Sharing-Your-Mental-Health-Story-Matters"
+    "source": "https://www.nami.org/media-and-pop-culture/the-power-of-personal-stories/"
   },
   "detailedDescription": "Opening up about your mental health journey can be healing for you and empowering for others.",
   "tips": [
@@ -808,7 +159,9 @@ export const challengeData: ChallengeDayType[] = [
     "Be honest but gentle with yourself.",
     "Remember your story can help others feel less alone."
   ],
-  "resources": []
+  "resources": [
+    "https://www.nami.org/media-and-pop-culture/the-power-of-personal-stories/"
+  ]
 },
 {
   "day": 10,
@@ -818,7 +171,7 @@ export const challengeData: ChallengeDayType[] = [
   "description": "Ask someone who seems down how they are doing",
   "fact": {
     "text": "Stigma can prevent people from asking for the help they need.",
-    "source": "https://www.mentalhealth.org.uk/explore-mental-health/publications/stigma-and-discrimination"
+    "source": "https://www.psychiatry.org/patients-families/stigma-and-discrimination"
   },
   "detailedDescription": "Reach out to someone who might be struggling. A simple check-in can make a big difference.",
   "tips": [
@@ -826,7 +179,9 @@ export const challengeData: ChallengeDayType[] = [
     "Listen without judgment.",
     "Offer support or suggest resources if needed."
   ],
-  "resources": []
+  "resources": [
+    "https://www.psychiatry.org/patients-families/stigma-and-discrimination"
+  ]
 },
 {
   "day": 11,
@@ -838,7 +193,8 @@ export const challengeData: ChallengeDayType[] = [
   "tips": [
     "Call or email to schedule a visit.",
     "Ask about workshops or support groups.",
-    "Bring a friend if you're nervous."
+    "Bring a friend if you're nervous.",
+    "Campus Location: HSC-124"
   ],
   "resources": [
     "tel:360-992-2614",
@@ -853,7 +209,7 @@ export const challengeData: ChallengeDayType[] = [
   "description": "Reach out to marginalized students & listen to their experience",
   "fact": {
     "text": "Minority and marginalized students face additional hardships and increased barriers to getting help.",
-    "source": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5792206/"
+    "source": "https://www.nami.org/your-journey/identity-and-cultural-dimensions/black-african-american/"
   },
   "detailedDescription": "Create space for marginalized voices. Listening with empathy can foster inclusion and healing.",
   "tips": [
@@ -884,29 +240,31 @@ export const challengeData: ChallengeDayType[] = [
   category: "support",
   link: "/day/14",
   "title": "Explore Crisis Resources",
-  "description": "Check out Clark County’s Crisis System",
+  "description": "Check out Clark County's Crisis System",
   "detailedDescription": "Familiarize yourself with local crisis support options. Knowing where to turn in an emergency is essential.",
   "tips": [
     "Save hotline numbers in your phone.",
     "Share resources with your group.",
     "Bookmark the crisis website."
   ],
-  "resources": []
+  "resources": [
+    "https://myqrcode.mobi/d5bfeb25"
+  ]
 },
 {
   "day": 15,
   category: "community",
   link: "/day/15",
-  "title": "Join a Campus Group",
+  "title": "Join a Campus Group/Club",
   "description": "Find a club/group to join on campus",
   "fact": {
     "text": "Joining a club has been shown to reduce stress and anxiety by providing emotional support and social engagement.",
-    "source": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10023642/"
+    "source": "https://www.summahealth.org/flourish/entries/2023/12/five-surprising-health-benefits-to-socializing-with-others"
   },
   "detailedDescription": "Get involved in a student organization. Social connection is a powerful buffer against stress.",
   "tips": [
     "Browse club listings online or at student services.",
-    "Attend a meeting to see if it’s a good fit.",
+    "Attend a meeting to see if it's a good fit.",
     "Try something outside your comfort zone."
   ],
   "resources": []
@@ -919,7 +277,7 @@ export const challengeData: ChallengeDayType[] = [
   "description": "No short forms of video for the day",
   "fact": {
     "text": "Studies have shown that short form video addiction leads to academic procrastination.",
-    "source": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10161593/"
+    "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10756502/"
   },
   "detailedDescription": "Take a break from TikTok, Reels, and Shorts. Reducing short-form video consumption helps improve focus and productivity.",
   "tips": [
@@ -937,7 +295,7 @@ export const challengeData: ChallengeDayType[] = [
   "description": "Limit phone time to two hours",
   "fact": {
     "text": "Excessive screen time can lead to or worsen mental health challenges like anxiety, depression or PTSD.",
-    "source": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10161593/"
+    "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9638701/#:~:text=Abstract,addiction%20and%20excessive%20screen%20exposure."
   },
   "detailedDescription": "Set a screen time limit and stick to it. Reducing phone use can improve sleep, mood, and attention span.",
   "tips": [
@@ -955,7 +313,7 @@ export const challengeData: ChallengeDayType[] = [
   "description": "No videogames for the day",
   "fact": {
     "text": "Limiting your time spent staring at a screen has been shown to increase sleep quality and focus.",
-    "source": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10161593/"
+    "source": "https://www.thensf.org/screen-use-disrupts-precious-sleep-time/"
   },
   "detailedDescription": "Skip gaming today and explore offline hobbies. This break helps reset your brain and reduce overstimulation.",
   "tips": [
@@ -991,7 +349,7 @@ export const challengeData: ChallengeDayType[] = [
   "description": "Use electronics only for Business purposes",
   "fact": {
     "text": "Limiting technology usage can reduce eye strain and improve your posture.",
-    "source": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10161593/"
+    "source": "https://chirohealthwellness.com/blog/health-benefits-of-reducing-screen-time-and-the-toxicity-of-social-media/#:~:text=Reduced%20Eye%20Strain:%20Staring%20at,and%20improve%20overall%20physical%20health."
   },
   "detailedDescription": "Use your devices only for work or school today. This helps reset your relationship with tech and encourages intentional use.",
   "tips": [
@@ -1009,7 +367,7 @@ export const challengeData: ChallengeDayType[] = [
   "description": "Flip phone day (call and text ONLY)",
   "fact": {
     "text": "Spending less time using phones and computers motivates you to spend more time physically exerting yourself, leading to improved health.",
-    "source": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10161593/"
+    "source": "https://www.mayoclinichealthsystem.org/hometown-health/featured-topic/5-ways-slimming-screen-time-is-good-for-your-health"
   },
   "detailedDescription": "Use only basic phone functions today—calls and texts. This helps reduce digital distractions and encourages more physical and social activity.",
   "tips": [
@@ -1027,7 +385,7 @@ export const challengeData: ChallengeDayType[] = [
   "description": "Wall phone day (Only use to call)",
   "fact": {
     "text": "Talking on the phone causes the release of oxytocin, a hormone that is important for social bonding and stress management, which isn’t released during texting.",
-    "source": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10161593/"
+    "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3277914/#:~:text=We%20discovered%20that%20unlike%20children,using%20vocal%20cues%20to%20communicate."
   },
   "detailedDescription": "Skip texting and use voice calls only. Hearing someone’s voice builds deeper connection and emotional support.",
   "tips": [
@@ -1085,6 +443,10 @@ export const challengeData: ChallengeDayType[] = [
     "Say no to extra obligations.",
     "Do something that brings you joy."
   ],
+  fact: {
+    source: "https://alldaymedicalcare.com/the-importance-of-self-care-in-managing-stress/#:~:text=Practicing%20self%2Dcare%20and%20stress,significant%20reduction%20in%20stress%20levels.",
+    text: "Self-care can also increase resilience, making it easier to cope with future stressors."
+  },
   "resources": []
 },
 {
@@ -1113,7 +475,7 @@ export const challengeData: ChallengeDayType[] = [
   "description": "Do one kind thing for someone each day",
   "fact": {
     "text": "Helping others triggers the brain’s reward system, releasing feel-good chemicals like dopamine and oxytocin.",
-    "source": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5501030/"
+    "source": "https://www.cedars-sinai.org/blog/science-of-kindness.html#:~:text=This%20feel%2Dgood%20brain%20chemical,neurotransmitter%20that%20helps%20regulate%20mood."
   },
   "detailedDescription": "Make kindness a daily habit. Small gestures can uplift others and improve your own mental health.",
   "tips": [
@@ -1130,8 +492,8 @@ export const challengeData: ChallengeDayType[] = [
   "title": "Creative Flow",
   "description": "Spend 15 minutes a day doing something creative",
   "fact": {
-    "text": "Creative activities reduce stress by activating the brain’s “flow state,” which improves mood and focus.",
-    "source": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6368288/"
+    "text": "Creative activities reduce stress by activating the brain's “flow state,” which improves mood and focus.",
+    "source": "https://www.mqmentalhealth.org/the-art-of-destressing-how-creativity-creates-less-stress/#:~:text=Creating%20doesn't%20need%20to,by%20getting%20a%20bit%20creative."
   },
   "detailedDescription": "Engage in a creative activity to enter a flow state. This helps reduce anxiety and boost emotional regulation.",
   "tips": [
@@ -1167,10 +529,12 @@ export const challengeData: ChallengeDayType[] = [
   "description": "Try something new (Food, exercise, book)",
   "detailedDescription": "End the challenge by stepping outside your comfort zone. Novelty stimulates the brain and builds confidence.",
   "tips": [
-    "Pick something you’ve never done before.",
+    "Pick something you've never done before.",
     "Reflect on what you learned or felt.",
     "Celebrate your growth!"
   ],
-  "resources": []
+  "resources": [
+    "https://centerforbrainhealth.org/article/trying-new-things"
+  ]
 }
 ];
