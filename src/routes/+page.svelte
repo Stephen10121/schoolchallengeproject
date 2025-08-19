@@ -77,7 +77,7 @@
         </div>
         <p class="text-muted-foreground text-lg leading-relaxed max-w-2xl">
         Transform your wellbeing with daily practices designed to support your mental health journey. Each day
-        brings a new opportunity for growth, self-care, and connection.
+        brings a new opportunity for growth, self-care, and connection. <a href="https://myqrcode.mobi/66440c2e" target="_blank" class="underline">Additional Works Cited</a>
         </p>
     </div>
     </header>
