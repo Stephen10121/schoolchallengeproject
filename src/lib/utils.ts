@@ -12,11 +12,27 @@ export type WithoutChildren<T> = T extends { children?: any } ? Omit<T, "childre
 export type WithoutChildrenOrChild<T> = WithoutChildren<WithoutChild<T>>;
 export type WithElementRef<T, U extends HTMLElement = HTMLElement> = T & { ref?: U | null };
 
+export type CategoryTypes = 
+	"awareness" |
+	"coping" |
+	"relaxation" |
+	"reflection" |
+	"education" |
+	"creativity" |
+	"routine" |
+	"mindfulness" |
+	"community" |
+	"support" |
+	"digital-detox" |
+	"physical" |
+	"self-care" |
+	"growth";
+
 export type ChallengeDayType = {
 	day: number,
 	title: string,
 	description: string,
-	category: string,
+	category: CategoryTypes,
 	fact?: {
 		text: string,
 		source: string
